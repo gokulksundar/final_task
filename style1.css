@@ -1,0 +1,297 @@
+.header
+{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+
+}
+.top-header-img
+{
+background-image: url("logo.jpg");
+width: 50px;
+height: 50px;
+
+}
+.top-header-menu
+{
+  padding:10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  float: right;
+}
+.header-text
+{
+  padding: 10px;
+  font-weight: bold;
+}
+.top-header-menu a
+{
+  color: black;
+  text-decoration: none;
+}
+.menu {
+
+  overflow:all;
+  background-color: #333;
+  width: 100%;
+
+}
+
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.dropbtn {
+ 
+  border: none;
+  color: white;
+  padding: 20px;
+  background-color: #333;
+}
+
+
+.menu-right{
+  float: right;
+  
+}
+.menu input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  border: none;
+}
+
+.banner {
+    background-image: url("<?php echo base_url();?>images/food.jpeg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+    width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+ width: 80%;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropbtn {background-color: #4CAF50;
+  color: black;}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  
+}
+.content {
+	margin-top: 20px;
+ border: 1px solid;
+ border-width: 5px;
+ border-style: outset ;
+  padding: 8px;
+  height: 350px;
+}
+.content-img
+{
+	
+	 border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  height: 300px;
+  float:left;
+}
+.content-welcome
+{
+  
+  margin-right: 100px;
+ 
+}
+.dvcontent-table
+{
+  margin-top: 50px;
+  margin-left: 250px;
+  width:50%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+ select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.txtbx
+{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container2 {
+  
+  border-style: outset;
+  border-width: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 50px;
+  width: 50%;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #04091e;
+   color: white;
+   
+}
+.footer-content
+{
+  color: white;
+  font-size: 20px;
+margin-left: 50px;
+padding-top:50px;
+  padding-bottom: 20px;
+}
+
+.footer-content p
+{
+  color: #777;
+  
+}
+footer {
+    background-color: rgba(44, 62, 80, 1.0);
+
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:rgba(52, 73, 94,1.0);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+  
